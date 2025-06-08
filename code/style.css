@@ -36,6 +36,12 @@ nav{
   align-items:center;
   color:white;
   padding:20px;
+   background: rgb(38, 12, 12);
+   position: fixed;
+   width: 100vw;
+   z-index:2;
+   border-bottom: 2px solid var(--main-color);
+  
 }
 
 li{
@@ -85,14 +91,14 @@ li a:hover{
 }
 
 .arrow{
-  position:absolute;
-  right:12rem;
+  position:relative;
+  right:-11.5rem;
   transform: rotate(145deg) scale(0.3);
 }
 .click{
-  position:absolute;
-  right:17rem;
-  bottom:14rem;
+  position:relative;
+  right:-18rem;
+  bottom:15rem;
   transform: rotate(110deg);
 }
 .main-btn{
@@ -233,11 +239,23 @@ li a:hover{
 .card-title{
   color:white;
   font-size: 1.5rem;
+  text-align: center;
+  margin-top: 55px;
+}
+
+.card .items{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
 }
 
 .card .items p{
   color:white;
   margin: 10px 0;
+  font-family: cursive;
+  text-align: center;
 }
 
 footer{
@@ -277,6 +295,11 @@ span{
   }
   .mainheading{
     font-size: 2.5rem;
+  }
+  .arrow,.click{
+    transform:scale(0.2)  rotate(145deg);
+    right:-7.5rem;
+    
   }
 }  
 
