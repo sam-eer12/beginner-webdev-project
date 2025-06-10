@@ -1,5 +1,4 @@
-
-                                           # ☕ Coffee Lovers Landing Page
+# ☕ Coffee Lovers Landing Page
 
 A visually engaging, responsive landing page for coffee enthusiasts. This project highlights a stylish and modern design using only **HTML** and **CSS**, showcasing a coffee brand's story, products, and gallery.
 
@@ -27,7 +26,7 @@ project/
 │
 ├── coffee.html           # Main HTML page
 ├── style.css             # Stylesheet with all visual designs
-├── /samples/             # Image assets (not included in this repo)
+├── /assets/              # Image assets 
 ```
 
 ## 🖼️ Image Sources
