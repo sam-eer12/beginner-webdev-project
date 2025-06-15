@@ -93,7 +93,8 @@ li a:hover{
 .arrow{
   position:relative;
   right:-11.5rem;
-  transform: rotate(145deg) scale(0.3);
+  scale: 0.3;
+  transform: rotate(145deg);
 }
 .click{
   position:relative;
@@ -297,7 +298,6 @@ span{
     font-size: 2.5rem;
   }
   .arrow,.click{
-    transform:scale(0.2)  rotate(145deg);
     right:-7.5rem;
     
   }
