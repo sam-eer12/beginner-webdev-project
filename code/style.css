@@ -101,11 +101,10 @@ li a:hover{
 
 .click {
   position: absolute;
-  top: 14rem; /* Adjust as needed, below arrow */
-  left: calc(50% + 11rem); /* Adjust as needed, align with arrow or slightly offset */
-  /* Original transform: rotate(110deg) was removed. */
-  /* TODO: Set font-size to control the text size, e.g., font-size: 10px; */
-  /* Rotation cannot be applied without transform. */
+  top: 14rem; 
+  left: calc(50% + 11rem); 
+  transform: rotate(110deg);
+  
 }
 
 .main-btn{
