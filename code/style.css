@@ -97,6 +97,8 @@ li a:hover{
   /* Original transform: scale(0.3) rotate(145deg) was removed. */
   /* TODO: Set width/height to control the arrow's size, e.g., width: 30px; height: auto; */
   /* Rotation cannot be applied without transform. */
+  scale: 0.4;
+  transform: rotate(145deg);
 }
 
 .click {
