@@ -99,6 +99,7 @@ li a:hover{
   /* Rotation cannot be applied without transform. */
   scale: 0.4;
   transform: rotate(145deg);
+  bottom: calc(50%);
 }
 
 .click {
