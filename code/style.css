@@ -90,18 +90,24 @@ li a:hover{
   bottom:3.5rem;
 }
 
-.arrow{
-  position:relative;
-  right:-11.5rem;
-  scale: 0.3;
-  transform: rotate(145deg);
+.arrow {
+  position: absolute;
+  top: 11rem; /* Adjust as needed */
+  left: calc(50% + 11rem); /* Adjust as needed, positions left edge to the right of center */
+  /* Original transform: scale(0.3) rotate(145deg) was removed. */
+  /* TODO: Set width/height to control the arrow's size, e.g., width: 30px; height: auto; */
+  /* Rotation cannot be applied without transform. */
 }
-.click{
-  position:relative;
-  right:-18rem;
-  bottom:15rem;
-  transform: rotate(110deg);
+
+.click {
+  position: absolute;
+  top: 14rem; /* Adjust as needed, below arrow */
+  left: calc(50% + 11rem); /* Adjust as needed, align with arrow or slightly offset */
+  /* Original transform: rotate(110deg) was removed. */
+  /* TODO: Set font-size to control the text size, e.g., font-size: 10px; */
+  /* Rotation cannot be applied without transform. */
 }
+
 .main-btn{
   background: transparent;
   transform:scale(6);
@@ -297,9 +303,15 @@ span{
   .mainheading{
     font-size: 2.5rem;
   }
-  .arrow,.click{
-    right:-7.5rem;
-    
+  .arrow {
+    top: 9rem; /* Adjust as needed for smaller screens */
+    left: calc(50% + 6rem); /* Adjust as needed for smaller screens */
+    /* TODO: Ensure width/height for arrow size are appropriate here too */
+  }
+  .click {
+    top: 11rem; /* Adjust as needed for smaller screens */
+    left: calc(50% + 6rem); /* Adjust as needed for smaller screens */
+    /* TODO: Ensure font-size for click text is appropriate here too */
   }
 }  
 
