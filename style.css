@@ -93,7 +93,7 @@ li a:hover{
 }
 
 .arrow {
-  background-image: url(/code/assets/image.png);
+  background-image: url(assets/image.png);
   position: absolute;
   top: 11rem; /* Adjust as needed */
   left: calc(50% + 11rem); /* Adjust as needed, positions left edge to the right of center */
