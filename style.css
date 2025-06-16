@@ -318,6 +318,10 @@ span{
     left: calc(50% + 6rem); /* Adjust as needed for smaller screens */
     /* TODO: Ensure font-size for click text is appropriate here too */
   }
+  .gallery{
+    margin: 20px;
+    transform: scale(0.6);
+  }
 }  
 
 /*scrollbar*/
@@ -338,10 +342,10 @@ span{
 
 .gallery{
   position: relative;
-  width:800px;
+  width:80vw;
   margin-top: 5rem;
-  margin-left:15rem;
-  margin-right: 8rem;
+  margin-left:8rem;
+  margin-right: 15rem;
   height: 500px;
   background:black;
   display:flex;
