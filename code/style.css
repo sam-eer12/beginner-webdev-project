@@ -38,8 +38,10 @@ nav{
   padding:20px;
    background: rgb(38, 12, 12);
    position: fixed;
+   top: 0;
+   left: 0;
    width: 100vw;
-   z-index:2;
+   z-index: 1000;
    border-bottom: 2px solid var(--main-color);
   
 }
@@ -91,6 +93,7 @@ li a:hover{
 }
 
 .arrow {
+  background-image: url(/code/assets/image.png);
   position: absolute;
   top: 11rem; /* Adjust as needed */
   left: calc(50% + 11rem); /* Adjust as needed, positions left edge to the right of center */

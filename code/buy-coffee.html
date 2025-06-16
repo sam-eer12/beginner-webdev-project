@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Coffee - Coffee Corner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buy-coffee.css">
+    <link rel="shortcut icon" href="../assets/ChatGPT Image Mar 30, 2025, 10_37_14 PM.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+</head>
+<body>    <nav>
+        <h1 class="logo">logo</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="buy-coffee.html">Buy Coffee</a></li>
+        </ul>
+    </nav>
+
+    <header class="page-header">
+        <h1 class="page-title">Explore Our Coffees</h1>
+    </header>
+
+    <section class="coffee-products">
+        <div class="container">
+            <h2 class="section-heading">Premium Coffee Selection</h2>
+            
+            <div class="filter-section">
+                <button class="filter-btn active" data-filter="all">All Coffees</button>
+                <button class="filter-btn" data-filter="light">Light Roast</button>
+                <button class="filter-btn" data-filter="medium">Medium Roast</button>
+                <button class="filter-btn" data-filter="dark">Dark Roast</button>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card" data-category="light">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ethiopian Yirgacheffe">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Ethiopian Yirgacheffe</h3>
+                        <p class="product-description">Bright, floral, and citrusy notes. A delicate light roast, perfect for pour-over brewing methods.</p>
+                        <div class="product-details">
+                            <span class="roast-type">Light Roast</span>
+                            <span class="origin">Ethiopia</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="price">500 rupees</span>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="medium">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1512568400610-62da28bc8a13?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Colombian Supremo">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Colombian Supremo</h3>
+                        <p class="product-description">A classic choice with smooth, nutty flavors and a satisfyingly balanced body. Versatile medium roast.</p>
+                        <div class="product-details">
+                            <span class="roast-type">Medium Roast</span>
+                            <span class="origin">Colombia</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="price">500 rupees</span>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="dark">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1632036361798-972e9a619429?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGNvZmZlZSUyMGN1cHN8ZW58MHx8MHx8fDI%3D" alt="Sumatra Mandheling">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Sumatra Mandheling</h3>
+                        <p class="product-description">Earthy, bold, and rich with distinctively low acidity. A robust dark roast, ideal for French press.</p>
+                        <div class="product-details">
+                            <span class="roast-type">Dark Roast</span>
+                            <span class="origin">Indonesia</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="price">500 rupees</span>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="medium">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="House Blend">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Signature House Blend</h3>
+                        <p class="product-description">Our carefully crafted blend for a consistently delicious and comforting cup, day in and day out.</p>
+                        <div class="product-details">
+                            <span class="roast-type">Medium-Dark Roast</span>
+                            <span class="origin">Blend</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="price">500 rupees</span>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="medium">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1561395049-69684aacf8de?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGNvZmZlZSUyMGN1cHN8ZW58MHx8MHx8fDI%3D" alt="Decaf"> 
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Decaf Delight</h3>
+                        <p class="product-description">All the flavor, none of the caffeine. Naturally decaffeinated using the Swiss Water Process.</p>
+                        <div class="product-details">
+                            <span class="roast-type">Medium Roast</span>
+                            <span class="origin">Decaf</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="price">500 rupees</span>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="dark">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1724080419322-477a3fa697d3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvZmZlZSUyMGN1cHN8ZW58MHx8MHx8fDI%3D" alt="Espresso">
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-title">Espresso Forte</h3>
+                        <p class="product-description">A powerful and intense blend designed to create the perfect crema-rich espresso shot.</p>
+                        <div class="product-details">
+                            <span class="roast-type">Dark Roast</span>
+                            <span class="origin">Espresso Blend</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="price">500 rupees</span>
+                            <button class="add-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="foot-conent">
+            <h1 class="heading-info">about <span>us</span></h1>
+            <p>Passionate about coffee, community, and creating memorable moments, one cup at a time.</p>  
+        </div>
+        <div class="foot-conent">
+            <h1 class="heading-info">contact <span>us</span></h1>
+            <p>Email: sameer870732@gmail.com<br>Phone: 98xxxxxxxx</p>  
+        </div>
+        <div class="foot-conent">
+            <h1 class="heading-info">opening <span>hours</span></h1>
+            <p>Mon - Fri: 7 AM - 6 PM<br>Sat - Sun: 8 AM - 5 PM</p>  
+        </div>       
+        <p class="copyright">© 2025 Coffee Corner. All rights reserved.</p>
+    </footer>
+</body>
+</html>
