@@ -309,14 +309,13 @@ span{
     font-size: 2.5rem;
   }
   .arrow {
-    top: 9rem; /* Adjust as needed for smaller screens */
-    left: calc(50% + 6rem); /* Adjust as needed for smaller screens */
-    /* TODO: Ensure width/height for arrow size are appropriate here too */
+    top: 9rem; 
+    left: calc(50% + 6rem); 
+   
   }
   .click {
-    top: 11rem; /* Adjust as needed for smaller screens */
-    left: calc(50% + 6rem); /* Adjust as needed for smaller screens */
-    /* TODO: Ensure font-size for click text is appropriate here too */
+    top: 11rem; 
+    left: calc(50% + 6rem);
   }
   .gallery{
     margin: 20px;
